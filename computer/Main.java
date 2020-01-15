@@ -10,8 +10,6 @@ public class Main
         Motherboard themotherboard = new Motherboard("Atx-120", "Asus", 4, 6, "v2.44");
         PC thePC = new PC(thecase, themonitor, themotherboard);
 
-        thePC.getMonitor().drawpixelat(1500, 1200, "red");
-        thePC.getMotherboard().loadprogram("Windows 10");
-        thePC.getTheCase().presspowerbutton();
+        thePC.powerup();
     }
 }

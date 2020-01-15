@@ -13,16 +13,13 @@ public class PC
         this.motherboard = motherboard;
     }
 
-    public Case getTheCase()
+    public void powerup()
     {
-        return thecase;
+        thecase.presspowerbutton();
+        drawlogo();
     }
-    public Monitor getMonitor()
+    public void drawlogo()
     {
-        return monitor;
-    }
-    public Motherboard getMotherboard()
-    {
-        return motherboard;
+        monitor.drawpixelat(1200, 50, "red");
     }
 }
