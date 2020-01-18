@@ -22,4 +22,9 @@ public class PC
     {
         monitor.drawpixelat(1200, 50, "red");
     }
+    
+    public Motherboard getmotherboard()
+    {
+        return motherboard;
+    }
 }

@@ -4,6 +4,20 @@
             "type": "java",
             "name": "CodeLens (Launch) - Main",
             "request": "launch",
+            "mainClass": "printer.Main",
+            "projectName": "Java_Programs_992f1a13"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
+            "mainClass": "house.Main",
+            "projectName": "Java_Programs_992f1a13"
+        },
+        {
+            "type": "java",
+            "name": "CodeLens (Launch) - Main",
+            "request": "launch",
             "mainClass": "computer.Main",
             "projectName": "Java_Programs_992f1a13"
         },
