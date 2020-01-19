@@ -2,6 +2,13 @@
     "configurations": [
         {
             "type": "java",
+            "name": "CodeLens (Launch) - CarMain",
+            "request": "launch",
+            "mainClass": "CarMain",
+            "projectName": "Java_Programs_992f1a13"
+        },
+        {
+            "type": "java",
             "name": "CodeLens (Launch) - Main",
             "request": "launch",
             "mainClass": "printer.Main",
